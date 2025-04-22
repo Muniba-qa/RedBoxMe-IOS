@@ -1,0 +1,48 @@
+node_modules
+
+# Build output
+apps/
+build/
+*.ipa
+*.dylib
+
+
+# Log files
+logs/
+*.log
+local.log
+*.log.*
+
+# Dependency directories
+jspm_packages/
+
+# Allure results
+allure-results/
+results
+allure-report/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE or editor specific
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# npm package-lock files
+package-lock.json
+yarn.lock
+
+# Temporary or system files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+
+browserstack.err
