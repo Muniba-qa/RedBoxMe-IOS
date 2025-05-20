@@ -53,10 +53,10 @@ exports.config = {
   ],
 
   capabilities: [
-    {
-      ...baseCapability,
-      "bstack:options": { ...baseCapability["bstack:options"], deviceName: "iPhone 15", osVersion: "17.0" },
-    },
+    // {
+    //   ...baseCapability,
+    //   "bstack:options": { ...baseCapability["bstack:options"], deviceName: "iPhone 15", osVersion: "17.0" },
+    // },
     // {
     //   ...baseCapability,
     //   "bstack:options": { ...baseCapability["bstack:options"], deviceName: "iPhone 15 Pro", osVersion: "17.0" },
@@ -69,10 +69,10 @@ exports.config = {
     //   ...baseCapability,
     //   "bstack:options": { ...baseCapability["bstack:options"], deviceName: "iPhone 14", osVersion: "16.5" },
     // },
-    // {
-    //   ...baseCapability,
-    //   "bstack:options": { ...baseCapability["bstack:options"], deviceName: "iPhone 14 Pro Max", osVersion: "16.5" },
-    // },
+    {
+      ...baseCapability,
+      "bstack:options": { ...baseCapability["bstack:options"], deviceName: "iPhone 14 Pro Max", osVersion: "16.5" },
+    },
   ],
 
   updateJob: false,
@@ -81,7 +81,8 @@ exports.config = {
     // "../test/specs/Thoughts.spec.js",
     // "../test/specs/Login.spec.js",
     //  "../test/specs/Notification.spec.js"
-    "../test/specs/connection.spec.js"
+    // "../test/specs/connection.spec.js"
+    "../test/specs/Search.spec.js",
   ],
   exclude: [],
 

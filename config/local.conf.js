@@ -30,7 +30,7 @@ exports.config = {
             'appium:automationName': 'XCUITest',
             'appium:autoAcceptAlerts': true,     
             'appium:autoGrantPermissions': true, 
-            'appium:app': 'build/Redboxme-searching/RedBoxMe.app',  
+            'appium:app': 'build/search/RedBoxMe 2.app',  
             
             'appium:newCommandTimeout': 240,      
             'appium:webviewConnectTimeout': 5000, 
@@ -41,7 +41,8 @@ exports.config = {
         // '../test/specs/*.js', 
         // "../test/specs/Thoughts.spec.js"
         // "../test/specs/Notification.spec.js"
-        "../test/specs/connection.spec.js"
+        // "../test/specs/connection.spec.js"
+        "../test/specs/Search.spec.js",
     ],
     exclude: [], 
     logLevel: 'info', 
